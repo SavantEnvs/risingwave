@@ -1,0 +1,8 @@
+project: savantenvs/risingwave
+target: fuzz-parse-sql-buggy-mhh-run-151
+duration: 300
+# origin: https://app.mayhem.security/mayhemheroes/risingwave/fuzz-parse-sql/151
+
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql
+    libfuzzer: true
