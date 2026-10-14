@@ -1,0 +1,8 @@
+# seed-from: https://app.mayhem.security/savantenvs/risingwave/parse-sql
+project: savantenvs/risingwave
+target: parse-sql-mined-c207add
+duration: 300
+
+cmds:
+  - cmd: /mayhem/fuzz_parse_sql
+    libfuzzer: true
